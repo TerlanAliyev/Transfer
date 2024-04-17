@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabs{
+    width: 90%;
+    padding: 20px;
+    margin:20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.tabs .tab1 ,.tab2{
+    width:30%;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.tabs h1{
+    padding: 10px;
+    cursor: pointer;
+}
+.btns{
+    text-align: center;
+    margin-top: 200px;
+}
+button{
+    width: 100px;
+    height:100px;
+}
+.green{
+    color: green;
+}
